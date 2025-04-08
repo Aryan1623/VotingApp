@@ -1,0 +1,15 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Backend for the project",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@truffle/contract": "^4.6.31",
+        "backend": "file:",
+        "express": "^4.21.2",
+        "web3": "^1.9.0"
+    }
+}
